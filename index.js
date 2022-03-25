@@ -1,16 +1,13 @@
-const cool = require("cool-ascii-faces");
-
 const express = require("express");
 
 const app = express();
 const port = process.env.PORT || 8080;
 
-app.get("/cool",(req,res)=>{
-    console.log("Requested / route");
-    res.send("<html><body>"+cool()+"</body></html>")
+app.get("/api",(req,res)=>{
+    res.send({result:true});
 });
 
-app.use("/", express.static('public'));
+
 
 
 
