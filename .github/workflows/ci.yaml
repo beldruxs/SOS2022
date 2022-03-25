@@ -5,7 +5,7 @@ jobs:
   integrationTest:
     runs-on: ubuntu-latest
     steps:
-      -uses: actions/checkout@v2
-      -run: npm install
-      -run: npm start &
-      -run: npm test
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm start &
+      - run: npm test
