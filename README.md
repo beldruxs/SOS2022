@@ -1,4 +1,4 @@
-# package SOS2022
+ru# package SOS2022
 This is package l07
 
 ## Install
@@ -12,4 +12,4 @@ npm start
  
 ```
 
-Done by @belrodsal
+Done by @beldruxs
